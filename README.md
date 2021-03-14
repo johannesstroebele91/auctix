@@ -1,9 +1,17 @@
-# Getting Started with Create React App
+# 1. Summary
+This mobile first web application was developed by Alex and Johannes. The goal is to enable users to bid on products similar to ebay.  
 
+# 2. Design Mockup
+
+# 3. Technology Stack
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Frontend: React, TypeScript, Ant Design, SCSS/LESS
+* Backend: Express, Node.js, TypeScript
+* Database: MongoDB?
 
-## Available Scripts
+# 4. File Structure
 
+# 5. Development and deployment instructions
 In the project directory, you can run:
 
 ### `npm start`
@@ -44,3 +52,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# 6. Endpoints
+
+# 7. Lessons Learned
+
+# 8. Potential Improvements
+A more detailed explanation can be found on the [wiki page](https://github.com/johannesstroebele91/GitHubUserDashboard/wiki/Potential-enhancement)
+* Implement comparison of one GitHub user with others (e. g. with charts and tables)
+* Create more and better visualizations to give even deeper insights using ng2-charts
+* Implement search for specific coding language for all users (filters would be great)
+* Replace normal search form with FormBuilder (https://coryrylan.com/blog/angular-form-builder-and-validation-management)
+* Use RxJS for dealing with more than one event or asynchronous computation see RxJS library
+* Implement user registration and login (https://jasonwatmore.com/post/2019/06/10/angular-8-user-registration-and-login-example-tutorial)
+* Create reverse proxy for faster and smoother flow of traffic between clients and servers (e.g. https://unit.nginx.org/howto/express/)
+* Setup database for registered users and connect it to the application
+* Implement testing with e. g. Karma and Jasmine
