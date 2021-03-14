@@ -2,6 +2,10 @@ import React from "react";
 
 export const Login = () => {
     return (
-        <p>login</p>
+        <React.Fragment>
+            <h1>Login</h1>
+            <p>Username</p>
+            <p>Password</p>
+        </React.Fragment>
     );
 };

@@ -1,0 +1,17 @@
+.products-distribution {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+span {
+  width: 180px;
+  height: 180px;
+  background: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

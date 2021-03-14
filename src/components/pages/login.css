@@ -1,0 +1,75 @@
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.login .ant-input-prefix {
+  padding-right: 12px;
+}
+
+.login .ant-input-affix-wrapper {
+  padding: 12px 18px !important;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+
+.login .ant-form-item-control-input-content > * {
+  white-space: nowrap;
+}
+
+.register-button {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ant-form-horizontal .ant-form-item-label {
+  width: 24% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.forgot-password {
+  text-align: right;
+}
+.login-inputs .ant-form-item-control-input-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+@media (max-width: 319.98px) {
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .login-content {
+    margin-top: 60px;
+    padding: 24px 48px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .login-content {
+    margin-top: 60px;
+    padding: 60px 90px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
+  }
+  .login-inputs .ant-form-item {
+    width: 420px;
+  }
+}
