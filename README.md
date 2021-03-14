@@ -1,5 +1,6 @@
 # 1. Summary
-This mobile first web application was developed by Alex and Johannes. The goal is to enable users to bid on products similar to ebay.  
+This mobile first web application was developed by Alex and Johannes.
+The goal is to enable users to bid on art pieces in a real auction house using the auctix app.
 
 # 2. Design Mockup
 
