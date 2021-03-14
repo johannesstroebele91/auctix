@@ -1,6 +1,22 @@
 # 1. Summary
 This mobile first web application was developed by Alex and Johannes.
-The goal is to enable users to bid on art pieces in a real auction house using the auctix app.
+The goal is to enable users to bid on art pieces in a real auction house using the auctix web app.
+The auction is carried out as follows:
+1) People go to the respective auction 
+2) Each person gets an individual username or password (or QR Code) to authenticate themselves anonymously
+3) They can log in using two ways:
+3.1) They can either scan the provided QR Code, which opens up the auctix web app and logs the user in
+3.2) They can go to the auctix web app themselves and input their credentials manually using the provided username and password
+4) Then, the users are redirected to the respective auction associated with the QR Code or username/password   
+4) The main view of each auction gives an overview of all products that can be purchased
+5) The user can look around, mark a product as their favorite by clicking a heart shaped button, and click on a product to  get more detailed information
+6) If the users decide get more details about the product:
+6.1) they can see when the auction starts throughout a timestamp and also see the remaining time
+6.2) they can see the current bid, and the former submitted bids   
+6.3) they can bid on a product by entering a number that must be higher than the current bid  
+6.4) they can add the product to his favorites by clicking on a heart shaped button
+6.5) they can share the product by clicking on the share button
+7) If the user won the bid, he or she then completes the purchase offline with the auctioneer
 
 # 2. Design Mockup
 
