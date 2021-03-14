@@ -1,7 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
-export const Footer = () => {
+export const Header = () => {
     return (
-        <p>Header</p>
+        <React.Fragment>
+            <Link to="/">Login</Link>
+            <Link to="/product-overview">Product Overview</Link>
+            <Link to="/product">Product</Link>
+        </React.Fragment>
     );
 };
